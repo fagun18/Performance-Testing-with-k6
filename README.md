@@ -2,6 +2,8 @@
 
 When it comes to performance testing, JMeter has long been a popular choice. However, k6, an open-source load testing tool introduced in 2017, offers a compelling alternative with its efficiency and ease of use.
 
+![K6](https://k6.io/docs/static/b5868f5174d8013deff526f28605e36c/bdf18/k6-results-stdout.png)
+
 ## Why k6?
 
 - **Written in Go**: k6 is built on Go, which prioritizes performance, making it highly efficient.
