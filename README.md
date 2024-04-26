@@ -23,11 +23,11 @@ sudo apt-get update
 sudo apt-get install k6
 ```
 
-- **MAC OS**
+- **MAC OS**:
 ```javascript
 brew install k6
 ```
-- **Windows**
+- **Windows**:
 If you use the Chocolatey package manager you can install the unofficial k6 package with:
 
 ```javascript
