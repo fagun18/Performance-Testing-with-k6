@@ -22,7 +22,7 @@ For other installation options, refer to the [k6 downloads page](https://k6.io/d
 ### Writing Your First k6 Load Test
 
 1. **Set Up**: Install Visual Studio Code for creating JavaScript/TypeScript-based tests.
-2. **Creating a Load Test**: Begin by writing a simple k6 load test.
+2. **Creating a Load Test**: Begin by writing a simple k6 load test & save it as name : k6-Fagun.js
 
 ```javascript
 import http from "k6/http";
@@ -35,7 +35,7 @@ export default function () {
 ## Running the Test
 Execute the test using the terminal command k6 
 ```javascript
-run k6-loadTest.js.
+run k6-Fagun.js
 ```
 
 ## Enhancing Load Tests
