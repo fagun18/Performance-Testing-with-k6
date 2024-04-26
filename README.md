@@ -14,8 +14,31 @@ When it comes to performance testing, JMeter has long been a popular choice. How
 
 To start using k6, install it based on your operating system:
 
-- **Mac**: Use Homebrew with `brew install k6`.
-- **Windows**: Utilize the Windows Package Manager with `winget install k6`.
+- **Linux**:
+```javascript
+sudo gpg -k
+sudo gpg --no-default-keyring --keyring /usr/share/keyrings/k6-archive-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys C5AD17C747E3415A3642D57D77C6C491D6AC1D69
+echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list
+sudo apt-get update
+sudo apt-get install k6
+```
+
+- **MAC OS**
+```javascript
+brew install k6
+```
+- **Windows**
+If you use the Chocolatey package manager you can install the unofficial k6 package with:
+
+```javascript
+choco install k6
+```
+
+If you use the Windows Package Manager, install the official packages from the k6 manifests (created by the community):
+
+```javascript
+winget install k6 --source winget
+```
 
 For other installation options, refer to the [k6 downloads page](https://k6.io/docs/getting-started/installation).
 
