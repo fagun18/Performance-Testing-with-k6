@@ -160,7 +160,7 @@ export function handleSummary(data) {
 
 ## License
 
-[MIT License](LICENSE)
+[All Copyright Goes to K6](https://k6.io/docs/)
 
 
 ## Follow Me
