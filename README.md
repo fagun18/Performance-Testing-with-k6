@@ -1,4 +1,4 @@
-# Performance Testing with k6
+# Performance Testing with [k6](https://k6.io/docs/)
 
 ![K6](https://miro.medium.com/v2/resize:fit:1400/1*vbT1NDY1DvTaPH_8eKyKmw.png)
 
