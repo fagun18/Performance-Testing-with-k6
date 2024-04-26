@@ -64,10 +64,9 @@ export default function () {
 ## Installation
 
 1. Clone the repository:
-2. 
    ```sh
    git clone https://github.com/fagun18/Performance-Testing-with-k6.git
-  ```
+   ```
 - Navigate to the project directory:
 
 ```sh
