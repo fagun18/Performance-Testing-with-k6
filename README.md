@@ -28,6 +28,7 @@ sudo apt-get install k6
 brew install k6
 ```
 - **Windows**:
+  
 If you use the Chocolatey package manager you can install the unofficial k6 package with:
 
 ```javascript
