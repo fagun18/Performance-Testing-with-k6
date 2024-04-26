@@ -59,6 +59,20 @@ export default function () {
   http.get("https://test-api.k6.io/public/crocodiles/");
 }
 ```
+## Or Clone this Respiratory
+
+## Installation
+
+1. Clone the repository:
+2. 
+   ```sh
+   git clone https://github.com/fagun18/Performance-Testing-with-k6.git
+  ```
+- Navigate to the project directory:
+
+```sh
+cd Performance-Testing-with-k6
+```
 
 ## Running the Test
 Execute the test using the terminal command k6 
