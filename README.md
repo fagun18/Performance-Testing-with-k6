@@ -30,3 +30,11 @@ import http from "k6/http";
 export default function () {
   http.get("https://test-api.k6.io/public/crocodiles/");
 }
+```
+
+## Running the Test
+Execute the test using the terminal command k6 run k6-loadTest.js.
+
+## Enhancing Load Tests
+- Adding Thresholds: Define acceptance criteria using thresholds to specify acceptable request durations or failure rates.
+- Adding Virtual Users: Configure the number of virtual users (vus) and duration to apply load.
