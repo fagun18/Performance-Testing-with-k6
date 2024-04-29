@@ -76,7 +76,7 @@ cd Performance-Testing-with-k6
 ## Running the Test
 Execute the test using the terminal command k6 
 ```javascript
-run k6-Fagun.js
+k6 run k6-Fagun.js
 ```
 
 ## Enhancing Load Tests
